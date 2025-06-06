@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cartão de Visita - Ju Makeup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #ffe4e9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 2rem;
+      text-align: center;
+      max-width: 350px;
+      width: 90%;
+      animation: slideUp 0.7s ease-out;
+    }
+
+    .card h1 {
+      font-family: 'Pacifico', cursive;
+      color: #d63384;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      color: #c9184a;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      color: white;
+    }
+
+    .btn-budget {
+      background: #f06595;
+    }
+
+    .btn-budget:hover {
+      background: #e64980;
+    }
+
+    .btn-learn {
+      background: #f783ac;
+    }
+
+    .btn-learn:hover {
+      background: #f06595;
+    }
+
+    .btn-insta {
+      background: #fcc2d7;
+      color: #880e4f;
+    }
+
+    .btn-insta:hover {
+      background: #f8a5c2;
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Olá, eu sou a Issama!</h1>
+   
+
+    <a href="https://wa.me/5561999439077?text=Oi%20vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20" target="_blank" class="btn btn-budget">
+      💌 Fazer Orçamento
+    </a>
+
+    <a href="https://seusite.com/aprenda" target="_blank" class="btn btn-learn">
+      ✨ Aprenda a se Maquiar
+    </a>
+
+    <a href="https://www.instagram.com/rebecaissama?igsh=MWVyMHVkYmFicDk3OQ==" target="_blank" class="btn btn-insta">
+      📸 Acompanhe no Instagram
+    </a>
+  </div>
+
+</body>
+</html>
